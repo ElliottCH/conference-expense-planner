@@ -7,7 +7,7 @@ import AboutUs from './Components/AboutUs.jsx'
 import ConferenceEvent from './Components/ConferenceEvent.jsx'
 
 function App() {
-  const {showVenue, setShowVenue} = useState(false)
+  const [showVenue, setShowVenue] = useState(false)
 
   const handleGetStarted = () => {
     setShowVenue(true);
